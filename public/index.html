@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple User Manager</title>
+  <script defer src="api.js"></script>
+  <link rel="stylesheet" href="api.css">
+</head>
+<body>
+  <h1>Users</h1>
+  <ul id="user-list"></ul>
+
+  <h2>Add User</h2>
+  <input type="text" id="name-input" placeholder="Name" />
+  <button onclick="addUser()">Add</button>
+
+  <h2>Update User</h2>
+  <input type="text" id="update-id" placeholder="User ID" />
+  <input type="text" id="update-name" placeholder="New Name" />
+  <button onclick="updateUser()">Update</button>
+
+  <h2>Delete User</h2>
+  <input type="text" id="delete-id" placeholder="User ID" />
+  <button onclick="deleteUser()">Delete</button>
+</body>
+</html>

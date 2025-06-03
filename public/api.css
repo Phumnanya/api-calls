@@ -1,0 +1,16 @@
+button {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px;
+    border-radius: 18px;
+    border: none;
+    margin: 5px;
+    width: 100px;
+    height: fit-content;
+}
+@media (max-width: 800px) {button {padding: 15px;}}
+input[type=text] {
+    padding: 10px;
+    border-radius: 18px;
+}
+@media (max-width: 800px) {input[type=text] {padding: 15px;}}
